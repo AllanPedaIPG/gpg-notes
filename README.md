@@ -3,8 +3,7 @@ Documenting how I check GPG signatures
 
 # Step one, download files and detached signature
 
-> curl -sLO https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.42.0.tar.sign
-> 
+> curl -sLO https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.42.0.tar.sign  
 > curl -sLO https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.42.0.tar.xz
 > 
 
