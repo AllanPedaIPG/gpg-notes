@@ -25,7 +25,7 @@ Alternately
 > gpg --import <(curl -s "$key")
 
 # Step five, check the signature
-> [pedaaadmins@omaedcwww129 Centos7-RPM-buildserver]$ xzcat git-2.42.0.tar.xz | gpg --verify git-2.42.0.tar.sign -  
+> [me@machine Centos7-RPM-buildserver]$ xzcat git-2.42.0.tar.xz | gpg --verify git-2.42.0.tar.sign -  
 > gpg: Signature made Mon 21 Aug 2023 12:29:53 PM CDT  
 > gpg:                using RSA key E1F036B1FEE7221FC778ECEFB0B5E88696AFE6CB  
 > gpg: Good signature from "Junio C Hamano <gitster@pobox.com>" [unknown]  
