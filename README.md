@@ -10,7 +10,7 @@ Documenting how I check GPG signatures
 # Step two, search for auther's key, I used keyserver.ubuntu.com
 > https://keyserver.ubuntu.com/pks/lookup?search=gitster%40pobox.com&fingerprint=on&op=index
 
-Why choose keyserver.ubuntu.com ?  The MIT server did not have the key I needed, so I just kept on searching.  How did I find the authors email?  
+Why choose keyserver.ubuntu.com ?  The MIT server did not have the key I needed, so I just kept on searching. How did I find the authors email? 
 Again a lot of fruitless searching until I tripped over a git source mailing list.
 
 # Step three, copy the top entry (above all the subkeys) paste that into a file such as gitster@pobox.com.asc
